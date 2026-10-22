@@ -1,4 +1,4 @@
-/* SPARTAN GYM COMALAPA · ATENEA 3 */
+/* ATENEA 3.2 · referencias visuales */
 window.ATENEA = {
   "categories": [
     {
@@ -453,12 +453,15 @@ window.ATENEA = {
       "equipmentType": "machine",
       "equipment": "Polea a la altura del pecho",
       "media": {
-        "src": "assets/pallof-scheme.gif",
-        "poster": "assets/pallof-scheme-poster.svg",
-        "label": "Esquema animado · vista ¾",
-        "kind": "diagram",
-        "aspect": "600 / 440"
-      }
+        "src": "assets/ref-14.gif",
+        "poster": "assets/ref-14-poster.jpg",
+        "kind": "gif",
+        "aspect": "600 / 600",
+        "label": "GIF de referencia · StrengthLog"
+      },
+      "sourceURLs": [
+        "https://www.strengthlog.com/wp-content/uploads/2025/10/pallof-press.gif"
+      ]
     },
     {
       "id": 15,
@@ -671,19 +674,19 @@ window.ATENEA = {
       "equipmentType": "machine",
       "equipment": "Polea baja y tobillera",
       "side": "por pierna · confirma la pauta",
-      "mediaNote": "Variante de la referencia enviada: rodilla adelante y extensión de cadera atrás. El esquema muestra el patrón; tu entrenador ajusta el apoyo y el recorrido.",
       "media": {
-        "src": "assets/sprinter-scheme.gif",
-        "poster": "assets/sprinter-scheme-poster.svg",
-        "label": "Esquema animado · rodilla al frente y extensión atrás",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-24.jpg",
+        "poster": "assets/ref-24.jpg",
+        "kind": "photo",
+        "aspect": "274 / 488",
+        "label": "Foto de la patada sprinter que compartiste · imagen fija"
       },
       "variants": [
         0,
         1
       ],
-      "variantIntro": "Opciones de extensión de cadera: colchoneta o polea. La sprinter incluye llevar la rodilla al frente; tiene un recorrido diferente a la patada simple."
+      "variantIntro": "Opciones de extensión de cadera: colchoneta o polea. La sprinter incluye llevar la rodilla al frente; tiene un recorrido diferente a la patada simple.",
+      "sourceURLs": []
     },
     {
       "name": "Puente de glúteos en máquina",
@@ -701,20 +704,22 @@ window.ATENEA = {
       "muscle": "Glúteos",
       "equipmentType": "machine",
       "equipment": "Máquina de puente / hip thrust",
-      "mediaNote": "El esquema muestra el movimiento de cadera en una máquina genérica. Ajustes, apoyos y seguros dependen del modelo del gimnasio.",
       "media": {
-        "src": "assets/machine-bridge-scheme.gif",
-        "poster": "assets/machine-bridge-scheme-poster.svg",
-        "label": "Esquema animado · el equipo puede variar",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-23.gif",
+        "poster": "assets/ref-23-poster.jpg",
+        "kind": "gif",
+        "aspect": "360 / 360",
+        "label": "GIF de puente en máquina · el modelo del gimnasio puede tener otros ajustes"
       },
       "variants": [
         25,
         26,
         27
       ],
-      "variantIntro": "Elige cómo hacer el puente o hip thrust: máquina, suelo con disco, barra y banco o barra en el suelo. El soporte y el recorrido cambian."
+      "variantIntro": "Elige cómo hacer el puente o hip thrust: máquina, suelo con disco, barra y banco o barra en el suelo. El soporte y el recorrido cambian.",
+      "sourceURLs": [
+        "https://fitnessprogramer.com/wp-content/uploads/2022/02/Hip-Thrust-Machine.gif"
+      ]
     },
     {
       "id": 25,
@@ -819,14 +824,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/cal-marcha.svg",
-        "poster": "assets/cal-marcha-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-30.jpg",
+        "poster": "assets/ref-30-poster.jpg",
+        "kind": "photo",
+        "aspect": "320 / 480",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.nhs.uk/live-well/exercise/how-to-warm-up-before-exercising/"
+        "https://assets.nhs.uk/nhsuk-cms/images/NHSC_0318_marching-on-spot_1_3P2A1490.original.width-320.jpg"
       ],
       "unit": "segundos"
     },
@@ -846,14 +851,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/cal-talones.svg",
-        "poster": "assets/cal-talones-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-31.jpg",
+        "poster": "assets/ref-31-poster.jpg",
+        "kind": "photo",
+        "aspect": "320 / 480",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.nhs.uk/live-well/exercise/how-to-warm-up-before-exercising/"
+        "https://assets.nhs.uk/nhsuk-cms/images/NHSC_0318-heel-digs_2_3P2A1498.original.width-320.jpg"
       ],
       "side": "por lado"
     },
@@ -873,14 +878,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/cal-rodillas.svg",
-        "poster": "assets/cal-rodillas-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-32.jpg",
+        "poster": "assets/ref-32-poster.jpg",
+        "kind": "photo",
+        "aspect": "320 / 480",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.nhs.uk/live-well/exercise/how-to-warm-up-before-exercising/"
+        "https://assets.nhs.uk/nhsuk-cms/images/NHSC_0318_knee-lifts_1_3P2A1499.original.width-320.jpg"
       ],
       "side": "por lado"
     },
@@ -900,14 +905,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/cal-brazos-circulos.svg",
-        "poster": "assets/cal-brazos-circulos-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-33.gif",
+        "poster": "assets/ref-33-poster.jpg",
+        "kind": "gif",
+        "aspect": "360 / 360",
+        "label": "GIF de referencia · Fitness Programer"
       },
       "sourceURLs": [
-        "https://www.newcastle-hospitals.nhs.uk/services/newcastle-occupational-health-service/information-for-staff/physiotherapy/self-help-leaflets/exercise-and-your-health-a-guide-to-getting-started/"
+        "https://fitnessprogramer.com/wp-content/uploads/2021/07/Arm-Circles_Shoulders.gif"
       ],
       "unit": "círculos",
       "side": "por dirección"
@@ -928,14 +933,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Silla firme, sin ruedas",
       "media": {
-        "src": "assets/cal-tobillo.svg",
-        "poster": "assets/cal-tobillo-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-34.jpg",
+        "poster": "assets/ref-34-poster.jpg",
+        "kind": "photo",
+        "aspect": "640 / 640",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/home-exercise-programme-falls-prevention"
+        "https://s3assets.skimble.com/assets/2125382/image_iphone.jpg"
       ],
       "unit": "círculos",
       "side": "por dirección y pie"
@@ -956,14 +961,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/cal-tronco.svg",
-        "poster": "assets/cal-tronco-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-35.jpg",
+        "poster": "assets/ref-35-poster.jpg",
+        "kind": "photo",
+        "aspect": "640 / 640",
+        "label": "Referencia del giro · en este calentamiento hazlo SIN PESO"
       },
       "sourceURLs": [
-        "https://www.nhsinform.scot/healthy-living/preventing-falls/keeping-well/strength-and-balance-exercises/"
+        "https://s3assets.skimble.com/assets/2547923/image_iphone.jpg"
       ],
       "side": "por lado"
     },
@@ -983,14 +988,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/cal-munecas.svg",
-        "poster": "assets/cal-munecas-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-36.gif",
+        "poster": "assets/ref-36-poster.jpg",
+        "kind": "gif",
+        "aspect": "360 / 360",
+        "label": "GIF de referencia · Fitness Programer"
       },
       "sourceURLs": [
-        "https://www.northerntrust.hscni.net/service/physiotherapy-services/rheumatology-physiotherapy/hand-exercises/"
+        "https://fitnessprogramer.com/wp-content/uploads/2021/06/Wrist-Circles-Stretch.gif"
       ],
       "unit": "círculos",
       "side": "por dirección"
@@ -1011,14 +1016,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Silla firme, sin ruedas",
       "media": {
-        "src": "assets/cal-brazos-abrir.svg",
-        "poster": "assets/cal-brazos-abrir-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-37.gif",
+        "poster": "assets/ref-37-poster.jpg",
+        "kind": "gif",
+        "aspect": "360 / 360",
+        "label": "GIF de referencia · Fitness Programer"
       },
       "sourceURLs": [
-        "https://www.nhs.uk/live-well/exercise/sitting-exercises/"
+        "https://fitnessprogramer.com/wp-content/uploads/2022/02/Arm-Scissors.gif"
       ],
       "unit": "aperturas",
       "side": "mantén 5 segundos cada una"
@@ -1039,14 +1044,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/aer-paso-toque.svg",
-        "poster": "assets/aer-paso-toque-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-38.jpg",
+        "poster": "assets/ref-38-poster.jpg",
+        "kind": "photo",
+        "aspect": "640 / 640",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://hsb.vibss.de/sportpraxis/sport-praxis/fitness-und-gymnastik/aerobic"
+        "https://s3assets.skimble.com/assets/2742516/image_iphone.jpg"
       ],
       "unit": "segundos"
     },
@@ -1066,14 +1071,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/aer-doble-paso.svg",
-        "poster": "assets/aer-doble-paso-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-39.jpg",
+        "poster": "assets/ref-39-poster.jpg",
+        "kind": "photo",
+        "aspect": "640 / 640",
+        "label": "Referencia del paso lateral · realiza dos pasos antes de cambiar de lado"
       },
       "sourceURLs": [
-        "https://hsb.vibss.de/sportpraxis/sport-praxis/fitness-und-gymnastik/aerobic"
+        "https://s3assets.skimble.com/assets/2742516/image_iphone.jpg"
       ],
       "unit": "segundos"
     },
@@ -1093,14 +1098,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/aer-talones.svg",
-        "poster": "assets/aer-talones-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-40.jpg",
+        "poster": "assets/ref-40-poster.jpg",
+        "kind": "photo",
+        "aspect": "320 / 480",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.cuh.nhs.uk/patient-information/cardiac-rehabilitation-home-exercise-guidelines/"
+        "https://assets.nhs.uk/nhsuk-cms/images/NHSC_0318-heel-digs_2_3P2A1498.original.width-320.jpg"
       ],
       "unit": "segundos",
       "variationNote": "Añade brazos y continuidad aeróbica; no es un movimiento nuevo de fuerza."
@@ -1121,14 +1126,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/aer-rodillas.svg",
-        "poster": "assets/aer-rodillas-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-41.jpg",
+        "poster": "assets/ref-41-poster.jpg",
+        "kind": "photo",
+        "aspect": "320 / 480",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/aerobic-exercises"
+        "https://assets.nhs.uk/nhsuk-cms/images/NHSC_0318_knee-lifts_1_3P2A1499.original.width-320.jpg"
       ],
       "unit": "segundos",
       "variationNote": "Mismo patrón de rodilla alterna, usado como tramo aeróbico continuo."
@@ -1149,14 +1154,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/aer-talones-atras.svg",
-        "poster": "assets/aer-talones-atras-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-42.jpg",
+        "poster": "assets/ref-42-poster.jpg",
+        "kind": "photo",
+        "aspect": "640 / 640",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://hsb.vibss.de/sportpraxis/sport-praxis/fitness-und-gymnastik/aerobic"
+        "https://s3assets.skimble.com/assets/4172/skimble-workout-trainer-exercise-chair-hamstring-kickbacks-3_iphone.jpg"
       ],
       "unit": "segundos"
     },
@@ -1176,14 +1181,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/aer-jack-sin-salto.svg",
-        "poster": "assets/aer-jack-sin-salto-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-43.jpg",
+        "poster": "assets/ref-43-poster.jpg",
+        "kind": "photo",
+        "aspect": "640 / 640",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/aerobic-exercises"
+        "https://s3assets.skimble.com/assets/2314528/image_iphone.jpg"
       ],
       "unit": "segundos"
     },
@@ -1203,15 +1208,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/aer-v-paso.svg",
-        "poster": "assets/aer-v-paso-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-44.jpg",
+        "poster": "assets/ref-44.jpg",
+        "kind": "photo",
+        "aspect": "3509 / 2481",
+        "label": "Guía de pisadas: 1 y 2 adelante, 3 y 4 atrás"
       },
       "sourceURLs": [
-        "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/aerobic-exercises",
-        "https://hsb.vibss.de/sportpraxis/sport-praxis/fitness-und-gymnastik/aerobic"
+        "https://stat.ameba.jp/user_images/20200523/18/genki-hiroba-niimi/b3/0c/j/o3509248114763082701.jpg"
       ],
       "unit": "segundos"
     },
@@ -1231,14 +1235,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin equipo",
       "media": {
-        "src": "assets/aer-boxeo-suave.svg",
-        "poster": "assets/aer-boxeo-suave-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-45.jpg",
+        "poster": "assets/ref-45-poster.jpg",
+        "kind": "photo",
+        "aspect": "640 / 640",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9135985/"
+        "https://s3assets.skimble.com/assets/20085/skimble-workout-trainer-exercise-straight-punches-6_iphone.jpg"
       ],
       "unit": "segundos"
     },
@@ -1258,14 +1262,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin máquina · Colchoneta",
       "media": {
-        "src": "assets/var-abduccion-lateral.svg",
-        "poster": "assets/var-abduccion-lateral-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-46.gif",
+        "poster": "assets/ref-46-poster.jpg",
+        "kind": "gif",
+        "aspect": "360 / 360",
+        "label": "GIF de elevación lateral · la banda de la imagen es opcional"
       },
       "sourceURLs": [
-        "https://www.orthoinfo.org/recovery/hip-conditioning-program/"
+        "https://fitnessprogramer.com/wp-content/uploads/2022/02/Band-Side-Lying-Leg-Lift.gif"
       ],
       "side": "por lado",
       "variationNote": "Comparte abducción de cadera; cambia la posición y la resistencia, por lo que no equivale a la misma carga.",
@@ -1292,15 +1296,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin máquina · Colchoneta y minibanda suave",
       "media": {
-        "src": "assets/var-almeja-banda.svg",
-        "poster": "assets/var-almeja-banda-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-47.gif",
+        "poster": "assets/ref-47-poster.jpg",
+        "kind": "gif",
+        "aspect": "360 / 360",
+        "label": "GIF de almeja sin banda · puedes añadir una banda suave sobre las rodillas"
       },
       "sourceURLs": [
-        "https://www.orthoinfo.org/recovery/hip-conditioning-program/",
-        "https://www.acefitness.org/resources/pros/expert-articles/9158/ankles-knees-and-hips-10-joint-friendly-exercises-for-the-lower-extremity/"
+        "https://fitnessprogramer.com/wp-content/uploads/2021/05/Side-Lying-Clam.gif"
       ],
       "side": "por lado",
       "variationNote": "Combina rotación de cadera y apertura; no reproduce el mismo patrón de una máquina de abducción.",
@@ -1327,14 +1330,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin máquina · Minibanda suave sobre las rodillas",
       "media": {
-        "src": "assets/var-pasos-banda.svg",
-        "poster": "assets/var-pasos-banda-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-48.gif",
+        "poster": "assets/ref-48-poster.jpg",
+        "kind": "gif",
+        "aspect": "360 / 360",
+        "label": "GIF de referencia · Fitness Programer"
       },
       "sourceURLs": [
-        "https://thephysios.com/videos/level-3-crab-walks/"
+        "https://fitnessprogramer.com/wp-content/uploads/2022/02/Resistance-Band-Lateral-Walk.gif"
       ],
       "unit": "pasos",
       "side": "por dirección",
@@ -1362,14 +1365,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin máquina · Silla firme o apoyo estable",
       "media": {
-        "src": "assets/var-curl-pie.svg",
-        "poster": "assets/var-curl-pie-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-49.jpg",
+        "poster": "assets/ref-49-poster.jpg",
+        "kind": "photo",
+        "aspect": "640 / 640",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/knee-strengthening-exercises"
+        "https://s3assets.skimble.com/assets/4172/skimble-workout-trainer-exercise-chair-hamstring-kickbacks-3_iphone.jpg"
       ],
       "side": "por lado",
       "variationNote": "Comparte flexión de rodilla, pero el peso corporal ofrece mucha menos resistencia que una máquina.",
@@ -1394,14 +1397,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin máquina · Pared o silla firme para equilibrio",
       "media": {
-        "src": "assets/var-pantorrillas-pie.svg",
-        "poster": "assets/var-pantorrillas-pie-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-50.jpg",
+        "poster": "assets/ref-50.jpg",
+        "kind": "photo",
+        "aspect": "320 / 221",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/knee-strengthening-exercises"
+        "https://assets.nhs.uk/nhsuk-cms/images/STRENGTH_EXERCISES-_calf-raises.width-320.jpg"
       ],
       "variationNote": "Comparte elevación de talones; cambia la postura y no permite igual carga externa.",
       "variants": [
@@ -1425,14 +1428,14 @@ window.ATENEA = {
       "equipmentType": "free",
       "equipment": "Sin máquina · Banco o silla firme, sin ruedas",
       "media": {
-        "src": "assets/var-banco.svg",
-        "poster": "assets/var-banco-poster.svg",
-        "label": "Ilustración animada del movimiento",
-        "kind": "diagram",
-        "aspect": "600 / 440"
+        "src": "assets/ref-51.jpg",
+        "poster": "assets/ref-51-poster.jpg",
+        "kind": "photo",
+        "aspect": "320 / 176",
+        "label": "Fotografía de referencia · sigue los pasos de abajo"
       },
       "sourceURLs": [
-        "https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/knee-strengthening-exercises"
+        "https://assets.nhs.uk/nhsuk-cms/images/STRENGTH_EXERCISES-_Sit-to-stand.width-320.jpg"
       ],
       "variationNote": "El asiento limita el descenso y ofrece descanso; es una opción más guiada del patrón de sentadilla.",
       "variants": [
