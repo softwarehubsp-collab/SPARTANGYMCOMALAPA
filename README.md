@@ -1,20 +1,25 @@
 # SPARTAN GYM COMALAPA
 
-Aplicación web instalable para registrar ejercicios y días de descanso.
+Dos aplicaciones web instalables e independientes, alojadas en GitHub Pages.
 
-## Aplicaciones
+## Aplicación PPL
 
-- Rutina PPL: `index.html`.
-- ATENEA: aplicación independiente en `atenea/` (en preparación).
+https://softwarehubsp-collab.github.io/SPARTANGYMCOMALAPA/
 
-## Publicación
+Rutina original: empuje + bíceps, tirón + tríceps y tren inferior.
 
-GitHub Pages sirve la rama `main`, carpeta `/ (root)`. La raíz contiene `index.html` y `.nojekyll`.
+## ATENEA
 
-## Datos personales
+https://softwarehubsp-collab.github.io/SPARTANGYMCOMALAPA/atenea/
 
-El progreso se guarda en el navegador de cada persona. No se envía a GitHub. Usa exportar y restaurar respaldo para moverlo entre dispositivos o direcciones web.
+Glúteos, piernas, abdomen y hábitos, cardio, nutrición, tren superior, descanso y progreso. Incluye 17 demostraciones GIF de dos fotos, instrucciones, registro por fecha, respaldo e instalación en Android. Las fotos de cardio muestran dos vistas del equipo. Las zonas verdes son orientativas sobre la imagen pausada.
 
-## Créditos
+## Cómo usar y compartir
+
+Comparte cualquiera de los enlaces por WhatsApp. En Chrome para Android, pulsa Instalar o abre el menú y elige Añadir a pantalla de inicio. Cada persona lleva su propio registro en su navegador; los datos no se sincronizan con un servidor. Exporta un respaldo antes de cambiar de dispositivo o borrar datos.
+
+GitHub Pages: publicar desde la rama main, carpeta / (root). No se requiere un plan Enterprise ni una prueba de 30 días para estas páginas públicas.
+
+El sonido de apertura es original y puede estar bloqueado por el navegador antes del primer toque. La pantalla de carga se cierra automáticamente.
 
 power by: yuri
