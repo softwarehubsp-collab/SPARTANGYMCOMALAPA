@@ -12,7 +12,11 @@ Rutina original: empuje + bíceps, tirón + tríceps y tren inferior.
 
 https://softwarehubsp-collab.github.io/SPARTANGYMCOMALAPA/atenea/
 
-Glúteos, piernas, abdomen y hábitos, cardio, nutrición, tren superior, descanso y progreso. Incluye 17 demostraciones GIF de dos fotos, instrucciones, registro por fecha, respaldo e instalación en Android. Las fotos de cardio muestran dos vistas del equipo. Las zonas verdes son orientativas sobre la imagen pausada.
+Inicio con iconos grandes; calentamiento, glúteos, piernas, abdomen, cardio sin elíptica, alimentación, tren superior, descanso y progreso. Incluye 22 demostraciones GIF de dos fotos, instrucciones, registro por fecha, respaldo e instalación en Android. Las fotos de cardio muestran dos vistas del equipo. Las zonas verdes son orientativas sobre la imagen pausada.
+
+Alimentación: menú salvadoreño de 7 días con 21 comidas, meriendas opcionales, 6 recetas, lista de compras y consejos. Las imágenes de comida son ilustrativas; no es una dieta personalizada.
+
+El botón Fondo permite elegir colores o una foto personal guardada solo en el dispositivo. Mantiene el historial anterior. Patada sprinter y puente de glúteos en máquina tienen indicaciones y series; sus demostraciones exactas quedan pendientes de identificar la variante y la máquina del gimnasio.
 
 ## Cómo usar y compartir
 
