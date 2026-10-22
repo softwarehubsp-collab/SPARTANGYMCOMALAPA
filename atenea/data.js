@@ -1,4 +1,3 @@
-/* ATENEA 3.2 · referencias visuales */
 window.ATENEA = {
   "categories": [
     {
@@ -705,11 +704,11 @@ window.ATENEA = {
       "equipmentType": "machine",
       "equipment": "Máquina de puente / hip thrust",
       "media": {
-        "src": "assets/ref-23.gif",
-        "poster": "assets/ref-23-poster.jpg",
-        "kind": "gif",
-        "aspect": "360 / 360",
-        "label": "GIF de puente en máquina · el modelo del gimnasio puede tener otros ajustes"
+        "src": "assets/bridge-user.mp4",
+        "poster": "assets/bridge-video-poster.jpg",
+        "kind": "video",
+        "aspect": "576 / 1024",
+        "label": "Tu video de referencia · ✕ muestra el error; ✓ muestra la ejecución correcta."
       },
       "variants": [
         25,
@@ -719,7 +718,9 @@ window.ATENEA = {
       "variantIntro": "Elige cómo hacer el puente o hip thrust: máquina, suelo con disco, barra y banco o barra en el suelo. El soporte y el recorrido cambian.",
       "sourceURLs": [
         "https://fitnessprogramer.com/wp-content/uploads/2022/02/Hip-Thrust-Machine.gif"
-      ]
+      ],
+      "referencePhoto": "assets/bridge-machine.webp",
+      "mediaNote": "El video compara errores y ejecución correcta. La foto de abajo muestra el equipo que compartiste."
     },
     {
       "id": 25,
