@@ -24,3 +24,7 @@
 .exercise-open .timer{bottom:calc(100px + env(safe-area-inset-bottom));z-index:45}
 .exercise-open .toast{bottom:calc(110px + env(safe-area-inset-bottom))}
 @media(max-height:600px){.exercise-open .topbar{min-height:54px;padding-bottom:6px}.exercise-open .exercise-title{font-size:24px;margin:8px 0}.exercise-open .equipment-bar{margin:8px 0}.exercise-open .media{height:clamp(110px,calc(100dvh - 285px),300px)}}
+
+/* Original crystal icon pack supplied by the owner. */
+.menu-grid .tile-icon.crystal-icon{background:transparent;border:0;box-shadow:none;border-radius:0;overflow:visible}
+.crystal-icon img{display:block;width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 14px #0005)}

@@ -77,9 +77,10 @@ function dateChip(){return `<button class="date-chip" data-action="date">${icon(
 function go(route){if($('modal').open)$('modal').close();muscle=false;paused=matchMedia('(prefers-reduced-motion: reduce)').matches;if(location.hash==='#'+route){render();}else location.hash=route;}
 function categoryRoute(c){return ['descanso','nutricion','progreso'].includes(c.id)?c.id:exerciseRoute(catalogItems(c)[0],c.id);}
 function weekRows(){return '<div class="week-list">'+[1,2,3,4,5,6,0].map(i=>`<div class="week-row ${new Date(selectedDate+'T12:00:00').getDay()===i?'selected':''}"><b>${week[i].short}</b><div><strong>${week[i].title}</strong><small>${week[i].type==='rest'?'Sin entrenamiento':week[i].type==='walk'?'Sin sesión de fuerza':'Consulta las series de cada ejercicio'}</small></div></div>`).join('')+'</div>';}
+const menuImages={calentamiento:'calentamiento',gluteos:'gluteos',piernas:'piernas',panza:'abdomen',cardio:'cardio',aerobicos:'aerobicos',nutricion:'alimentacion',superior:'tren-superior',descanso:'descanso',progreso:'mi-progreso'};
 function home(){
  return `<div class="home-title"><h1>Tu entrenamiento</h1><button class="wallpaper-button" data-action="wallpaper">${icon('spark')} Fondo</button></div>${dateChip()}
- <section class="menu-grid" aria-label="Grupos de ejercicios">${categories.map(c=>`<button class="category ${c.color}" data-go="${categoryRoute(c)}"><span class="tile-icon">${icon(c.icon)}</span><strong>${c.name}</strong><small>${c.sub}</small></button>`).join('')}</section>
+ <section class="menu-grid" aria-label="Grupos de ejercicios">${categories.map(c=>`<button class="category ${c.color}" data-go="${categoryRoute(c)}"><span class="tile-icon crystal-icon"><img src="./assets/menu/${menuImages[c.id]}.webp" alt="" width="512" height="512" decoding="async"></span><strong>${c.name}</strong><small>${c.sub}</small></button>`).join('')}</section>
  <button class="secondary wide week-home" data-action="week">${icon('calendar')}Mi semana y descansos</button>`;
 }
 const browseMode={};
