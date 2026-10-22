@@ -1,0 +1,21 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#111117"><title>Actualizar ATENEA</title>
+<style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#111117;color:#f4edff;font:18px system-ui}main{max-width:440px;padding:32px}h1{font-size:32px}p{line-height:1.6;color:#cfc4df}button,a{display:block;padding:20px;border:0;border-radius:20px;background:#cfb8ff;color:#21172f;font:700 20px system-ui;text-align:center;text-decoration:none}small{display:block;margin-top:24px;color:#a99abb}</style>
+<main><h1>Actualizando ATENEA</h1><p id="status">Preparando los ejercicios y las variantes sin máquina… Tus registros se conservan.</p><button id="retry" hidden>Reintentar</button><small>SPARTAN GYM · COMALAPA · v3.1</small></main>
+<script>
+async function update(){
+ const status=document.getElementById('status'),retry=document.getElementById('retry');retry.hidden=true;
+ try{
+  const base=new URL('./',location.href);
+  const check=await fetch(new URL('index.html?comprobar='+Date.now(),base),{cache:'no-store'});
+  if(!check.ok||!(await check.text()).includes('v=3.1'))throw Error('La actualización todavía no está disponible. Probá nuevamente.');
+  if('serviceWorker'in navigator){
+   const regs=await navigator.serviceWorker.getRegistrations();
+   await Promise.all(regs.filter(r=>r.scope===base.href).map(r=>r.unregister()));
+  }
+  if('caches'in window){const names=await caches.keys();await Promise.all(names.filter(n=>n.startsWith('atenea-')).map(n=>caches.delete(n)));}
+  status.textContent='Actualización lista. Entrando a ATENEA…';
+  location.replace(new URL('index.html?actualizada=3.1&ts='+Date.now()+'#home',base).href);
+ }catch(e){status.textContent='No se pudo completar: '+e.message+' Tus registros siguen guardados.';retry.hidden=false;}
+}
+document.getElementById('retry').onclick=update;update();
+</script></html>

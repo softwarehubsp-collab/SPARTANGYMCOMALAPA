@@ -211,7 +211,17 @@ document.addEventListener('click',async ev=>{
 });
 window.addEventListener('hashchange',()=>render());
 syncSound();render(false);tone('boot');
-if('serviceWorker'in navigator&&location.protocol!=='file:')navigator.serviceWorker.register('./sw.js',{scope:'./'}).then(reg=>{reg.update();}).catch(()=>{});
+if('serviceWorker'in navigator&&location.protocol!=='file:'){
+ let hadController=!!navigator.serviceWorker.controller,reloading=false;
+ navigator.serviceWorker.addEventListener('controllerchange',()=>{
+  if(hadController&&!reloading){reloading=true;location.reload();}
+  hadController=true;
+ });
+ navigator.serviceWorker.register('./sw.js',{scope:'./',updateViaCache:'none'}).then(reg=>{
+  reg.update();
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)reg.update().catch(()=>{});});
+ }).catch(()=>{});
+}
 if(!storageOK)setTimeout(()=>toast('Activa el almacenamiento del navegador o guarda respaldos.'),2800);
 // Small pure helpers also used by the local validation script.
 window.AteneaLogic={validDate,cleanData,localDate,count};
