@@ -153,6 +153,7 @@ applyWallpaper();if(wallpaperKind==='photo')wallpaperStore('get').then(blob=>{if
 function render(scroll=true){
  const route=location.hash.slice(1)||'home',[id,pos]=route.split('/'),c=categories.find(c=>c.id===id);
  document.body.classList.toggle('at-home',id==='home');
+ document.body.classList.toggle('exercise-open',!!(c?.items&&pos!==undefined&&/^\d+$/.test(pos)&&Number(pos)<c.items.length));
  if(c?.items&&pos!==undefined&&/^\d+$/.test(pos)&&Number(pos)<c.items.length)app.innerHTML=exercise(c,Number(pos));
  else app.innerHTML=id==='panza'?panza():id==='nutricion'?nutrition():id==='descanso'?rest():id==='progreso'?progress():home();
  if(scroll){window.scrollTo({top:0,behavior:'instant'});app.focus({preventScroll:true});}
