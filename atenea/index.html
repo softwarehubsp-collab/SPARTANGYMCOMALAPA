@@ -6,18 +6,21 @@
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>ATENEA · SPARTAN GYM COMALAPA</title>
 <link rel="manifest" href="./manifest.webmanifest"><link rel="icon" href="./icon-192.png"><link rel="apple-touch-icon" href="./icon-192.png"><link rel="stylesheet" href="./style.css">
-<script src="./data.js" defer></script><script src="./app.js" defer></script>
+<script src="./data.js" defer></script><script src="./menus.js" defer></script><script src="./app.js" defer></script>
 </head>
 <body>
+<div id="wallpaper-layer" aria-hidden="true"></div>
 <div id="splash" aria-label="Cargando ATENEA"><div class="splash-inner"><img src="./assets/logo.jpg" alt="SPARTAN GYM" class="logo"><span class="comalapa">COMALAPA</span><span class="splash-name">ATENEA</span><p>Fuerza que nace de ti.</p><div class="load-track"><span></span></div><span class="loading-label">Cargando tu espacio…</span></div></div>
 <div class="app-shell">
-<header class="topbar"><a href="#home" class="brand" aria-label="SPARTAN GYM COMALAPA, inicio"><img src="./assets/logo.jpg" alt="SPARTAN GYM"><span>COMALAPA</span></a><div class="top-actions"><button class="icon-button" id="sound" aria-label="Silenciar sonidos" title="Sonidos"></button><button class="icon-button" id="share" aria-label="Compartir ATENEA" title="Compartir"></button><button class="install-button" id="install">Instalar</button></div></header>
+<section class="gym-banner" aria-label="SPARTAN GYM COMALAPA"><img src="./assets/logo.jpg" alt="SPARTAN GYM"><span class="comalapa">COMALAPA</span><span class="atenea-label">ATENEA</span></section>
+<header class="topbar"><a href="#home" class="brand-word">ATENEA</a><div class="top-actions"><button class="icon-button" id="sound" aria-label="Silenciar sonidos" title="Sonidos"></button><button class="icon-button" id="share" aria-label="Compartir ATENEA" title="Compartir"></button><button class="install-button" id="install">Instalar</button></div></header>
 <main id="app" tabindex="-1"></main>
-<footer><span class="footer-brand">SPARTAN GYM · COMALAPA</span><button class="text-button" data-action="about">Acerca de ATENEA</button><small>power by: yuri</small></footer>
+<footer><span class="footer-brand">SPARTAN GYM · COMALAPA</span><button class="text-button" data-action="about">Acerca de ATENEA</button><button class="text-button" data-action="gym">El gimnasio en Google</button><small>power by: yuri</small></footer>
 </div>
 <div id="timer" class="timer hidden" role="status" aria-label="Tiempo de descanso"><div><span>Descanso</span><strong id="timer-value">01:00</strong></div><button id="timer-toggle" class="icon-button" aria-label="Pausar descanso"></button><button id="timer-close" class="icon-button" aria-label="Cerrar descanso"></button></div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <dialog id="modal"><div id="modal-content"></div><button class="secondary wide" id="close-modal">Cerrar</button></dialog>
+<input id="wallpaper-file" type="file" accept="image/jpeg,image/png,image/webp,image/gif" hidden>
 <input id="import-file" type="file" accept="application/json,.json" hidden>
 <noscript><div class="noscript">Activa JavaScript en el navegador para ver los ejercicios y guardar tu progreso.</div></noscript>
 <script>setTimeout(function(){var s=document.getElementById('splash');if(s)s.remove()},2600)</script>

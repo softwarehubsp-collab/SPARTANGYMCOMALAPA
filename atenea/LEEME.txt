@@ -1,19 +1,17 @@
-ATENEA · SPARTAN GYM COMALAPA
+ATENEA 2 · SPARTAN GYM COMALAPA
 
-ENLACE PARA WHATSAPP:
 https://softwarehubsp-collab.github.io/SPARTANGYMCOMALAPA/atenea/
 
-Esta carpeta es una copia del sitio. La instalación en Android funciona desde el enlace HTTPS, en Chrome: menú de tres puntos > Instalar aplicación o Añadir a pantalla de inicio.
+Comparte ese enlace por WhatsApp. Para instalar, abre en Chrome y toca Instalar.
 
-No es necesario enviar este archivo ZIP a tus amigos. Compárteles el enlace.
+Novedades: menú de inicio con iconos grandes, comidas salvadoreñas de lunes a domingo, recetas, compras, consejos y foto de fondo personal.
+La elíptica ya no aparece. Hay calentamiento, nuevos ejercicios y las series de la lista compartida. Abductores no se duplica; crunch inverso se agrupa en una sola ficha.
 
-Los datos se guardan en cada navegador, no se sincronizan entre teléfonos. En Mi progreso puedes respaldar y restaurar tus registros.
+Faltan las demostraciones exactas de patada sprinter y puente en la máquina del gimnasio; sus pautas están visibles y marcadas como pendientes. Se necesita una foto o un video de esas variantes para completarlas con fidelidad.
 
-Las demostraciones son GIFs de dos fotos. Cardio muestra dos vistas del equipo. La marca verde es una zona orientativa sobre una foto en pausa.
+Las fotos de comida son ilustrativas, creadas para la app. Los GIFs de ejercicios alternan dos fotografías.
+El fondo se guarda en el navegador, no se sube a internet. No va incluido en el respaldo de progreso. Tus registros de la versión anterior se conservan.
 
-El sonido de apertura es original. El navegador puede bloquearlo antes del primer toque; la pantalla de carga siempre termina sola.
-
-La primera app sigue independiente en:
-https://softwarehubsp-collab.github.io/SPARTANGYMCOMALAPA/
+El menú de comidas es orientativo, no una dieta personalizada.
 
 power by: yuri
