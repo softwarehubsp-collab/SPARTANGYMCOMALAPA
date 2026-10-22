@@ -1,0 +1,28 @@
+ATENEA 3 — Créditos y fuentes de las demostraciones
+
+1. Fotos de los ejercicios originales: yuhonas/free-exercise-db, dominio público según su licencia. EXERCISE-LICENSE.txt se aplica a ese material.
+https://github.com/yuhonas/free-exercise-db
+
+2. GIF de curl acostado, puente con disco, hip thrust con barra/banco y puente con barra: archivos aportados por el usuario; se conservan íntegros, incluidas las marcas de autoría. No se les atribuye dominio público ni la licencia del repositorio de fotos. El puente con disco identifica FitnessProgramer.com.
+
+3. Pallof, máquina de glúteos, sprinter, aeróbicos, calentamiento y variantes ilustradas: esquemas originales del movimiento realizados para esta aplicación. No son videos del gimnasio ni una identificación del modelo exacto.
+
+4. Fuentes para orientar técnica y organización (las dosis son referencias adaptables):
+https://bretcontreras.com/how-to-hip-thrust/
+https://hsb.vibss.de/sportpraxis/sport-praxis/fitness-und-gymnastik/aerobic
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9135985/
+https://thephysios.com/videos/level-3-crab-walks/
+https://www.acefitness.org/resources/pros/expert-articles/9158/ankles-knees-and-hips-10-joint-friendly-exercises-for-the-lower-extremity/
+https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/aerobic-exercises
+https://www.bhf.org.uk/informationsupport/heart-matters-magazine/activity/knee-strengthening-exercises
+https://www.catalystathletics.com/exercise/526/Pallof-Press/
+https://www.corehandf.com/es/products/nautilus-plate-loaded-glute-drive
+https://www.cuh.nhs.uk/patient-information/cardiac-rehabilitation-home-exercise-guidelines/
+https://www.kingstonandrichmond.nhs.uk/patients-and-families/patient-leaflets/home-exercise-programme-falls-prevention
+https://www.newcastle-hospitals.nhs.uk/services/newcastle-occupational-health-service/information-for-staff/physiotherapy/self-help-leaflets/exercise-and-your-health-a-guide-to-getting-started/
+https://www.nhs.uk/live-well/exercise/how-to-warm-up-before-exercising/
+https://www.nhs.uk/live-well/exercise/sitting-exercises/
+https://www.nhsinform.scot/healthy-living/preventing-falls/keeping-well/strength-and-balance-exercises/
+https://www.northerntrust.hscni.net/service/physiotherapy-services/rheumatology-physiotherapy/hand-exercises/
+https://www.orthoinfo.org/recovery/hip-conditioning-program/
+https://www.seattleymca.org/blog/how-pallof-press

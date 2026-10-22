@@ -1,17 +1,13 @@
-ATENEA 2 · SPARTAN GYM COMALAPA
+SPARTAN GYM COMALAPA · ATENEA 3
 
-https://softwarehubsp-collab.github.io/SPARTANGYMCOMALAPA/atenea/
+Abre y comparte: https://softwarehubsp-collab.github.io/SPARTANGYMCOMALAPA/atenea/
 
-Comparte ese enlace por WhatsApp. Para instalar, abre en Chrome y toca Instalar.
+49 fichas: 11 calentamientos, 11 de glúteos, 9 de piernas, 8 aeróbicos sin saltos, 3 de abdomen, 3 de tren superior, 2 de cardio y 2 de movilidad/descanso.
 
-Novedades: menú de inicio con iconos grandes, comidas salvadoreñas de lunes a domingo, recetas, compras, consejos y foto de fondo personal.
-La elíptica ya no aparece. Hay calentamiento, nuevos ejercicios y las series de la lista compartida. Abductores no se duplica; crunch inverso se agrupa en una sola ficha.
+Glúteos y piernas tienen filtros Con máquina / Sin máquina. Ver variantes permite elegir otra forma de trabajar el grupo. Son opciones, no una sesión para hacer completa. Curl corregido a acostado. Pallof, puente en máquina y sprinter cuentan con esquemas del movimiento. Los GIF aportados se conservan íntegros. Las fichas rotulan el tipo de demostración.
 
-Faltan las demostraciones exactas de patada sprinter y puente en la máquina del gimnasio; sus pautas están visibles y marcadas como pendientes. Se necesita una foto o un video de esas variantes para completarlas con fidelidad.
+Menú salvadoreño, recetas, fondo personal, sonidos e instalación conservados. Tu progreso se guarda solo en tu navegador. No borres sus datos al actualizar; usa Respaldar para cambiar de teléfono. La foto del fondo no va en el respaldo.
 
-Las fotos de comida son ilustrativas, creadas para la app. Los GIFs de ejercicios alternan dos fotografías.
-El fondo se guarda en el navegador, no se sube a internet. No va incluido en el respaldo de progreso. Tus registros de la versión anterior se conservan.
-
-El menú de comidas es orientativo, no una dieta personalizada.
+Para publicar esta carpeta utiliza HTTPS, index.html en su raíz. El ZIP es una copia del sitio, no un APK.
 
 power by: yuri
